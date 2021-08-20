@@ -1,0 +1,3 @@
+[submodule "angular-docs"]
+	path = angular-docs
+	url = https://github.com/FedericoManzano/angular-docs
