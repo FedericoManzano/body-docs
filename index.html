@@ -8,10 +8,9 @@
 
     <link rel="stylesheet" href="css/bodystyle.css">
     <link rel="stylesheet" href="css/icon.css">
-    <link  rel="stylesheet"  href="https://ghcdn.rawgit.org/FedericoManzano/bodystyle-v3.0.0-fuente/master/dist/css/tema-oscuro.css">
+    <link rel="stylesheet" href="https://rawcdn.githack.com/FedericoManzano/show-code/a5e13aa03697269a68b185b555034f8476fa6a22/dist/css/tema-oscuro.min.css">
     
     <link rel="stylesheet" href="css/documentacion.css">
-    <link  rel="stylesheet"  href="https://ghcdn.rawgit.org/FedericoManzano/bodystyle-v3.0.0-fuente/master/dist/css/tema-oscuro.css">
     
     <title>Documentacion Bodystyle</title>
 </head>
@@ -19,21 +18,23 @@
 
     <nav class="body-nav-dark fixed">
        
-            <a href="" class="body-logo " ><span class="bs-bs fz-38 t-force"></span></a>
+            <a href="" class="body-logo " ><span class="bs-bs fz-30 t-force"></span></a>
             <!-- Trigger-->
             <a class="t-cure hide-only-large bs-trigger" data-trigger="#sidebar"><span class="bs-menu-line-2"></span></a>
             <ul class="body-list show-only-large left">
                 <li><a href="#">Home            </a></li>
                 <li><a href="#">Documentación   </a></li>
                 <li><a href="#">Iconos          </a></li>
-                <li><a href="#" class="d-flex ali-center">Blog   &nbsp<span class="bs-tilde-2 fz-20 t-pasture"></span>       </a></li>
+                <li class="tips-ele" >
+                    <a href="#" data-position="bottom" data-info="<span class='t-force'>No disponible</span>" class="d-flex ali-center disabled tips-ele" style="border: none !important;">
+                        Blog   &nbsp
+                        <span class="bs-tilde-2 fz-20 t-pasture"></span>       
+                    </a>
+                </li>
             </ul>
             <a href="#" class="t-cure mr-2" style="text-decoration: none;">v1.0.0</a>
             <a href="#" class="t-cure mr-2" style="text-decoration: none;"><span class="bs-github"></span></a>
-            <a href="" class="btn btn-o-toxic hide-since-xsmall">Download</a>
-    
-        
-       
+            <a href=""  class="btn-sm btn-o-toxic hide-since-xsmall">Download</a>
     </nav>
 
     <div id="sidebar" class="body-sidebar-gentle">
@@ -53,8 +54,12 @@
         <p class="subtitulo">Framework UI</p>
         <p  class="mb-3" style="font-style: italic;">Comienza a utilizar la librería <strong>Bodystyle</strong></p>
         <div class="d-flex just-center just-around-s flex-wrap-xs">
-            <a href="#" class="btn-lg btn-o-cure">Get Started</a>
-            <a href="#" class="btn-lg btn-pasture ml-1 ml-xs-0 mt-xs-1">Repositorio</a>
+            <a href="#" style="z-index: inherit;"class="btn-lg btn-o-cure tips-ele" data-position="bottom" data-info="<span class='t-toxic'>Empezar a utilizar la librería</span>">
+                Get Started
+            </a>
+            <a href="#" style="z-index: inherit;"class="btn-lg btn-pasture ml-1 ml-xs-0 mt-xs-1 tips-ele" data-position="bottom" data-info="<span class='t-toxic'>Enlace del repositiorio</span>">
+                Repositorio
+            </a>
         </div>
         <div class="d-flex just-center">
             <a href="" class="btn-grad-1 mt-10">README Docs</a>
@@ -102,8 +107,9 @@
             <!-- META obligatorio para poder utilizar la libreria -->
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-            <!-- Link con el CDN de los estilos css  -->
+            <!-- Link con el CDN de los estilos css  
             <link rel="stylesheet" href="https://rawcdn.githack.com/FedericoManzano/bodystyle/58a25e885718d0b2db6675c502ce6a41a45f373c/dist/css/bodystyle.min.css">
+            -->
         </ head>
         < body>
             <h1>Hola Mundo !!! <span class="badge badge-rojo">New</h1>
